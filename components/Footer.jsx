@@ -1,6 +1,7 @@
 import React from "react";
 import FaqAccordion from "./FaqAccordian";
 import Image from "next/image";
+import Link from "next/link";
 
 function Footer() {
   return (
