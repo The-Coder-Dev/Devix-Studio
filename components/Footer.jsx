@@ -16,32 +16,35 @@ function Footer() {
         </div>
 
         <div className="flex">
-          <div className="w-300 h-fit bg-[#FAFAFA]">
+          <div className="w-fit h-fit bg-[#FAFAFA]">
+            
             <Image src="/profile.jpg" width={40} height={40} />
-            <h2>Short on Time?</h2>
-            <p>
-              Your project deserves strategy that actually works. Let’s start
-              with a conversation.
-            </p>
 
-            <Link href="/" className="group bg-black text-text px-3 py-2">
-              <div className="group overflow-hidden relative transition-all ease-in-out duration-300">
-                <div
-                  className="block transition-transform duration-300 ease-in-out group-hover:-translate-y-4"
-                  href="/"
-                >
-                  <h1>Contact Me</h1>
+            <div className="">
+              <h2>Short on Time?</h2>
+              <p>
+                Your project deserves strategy that actually works. Let’s start
+                with a conversation.
+              </p>
+
+              <Link href="/" className="group bg-black text-text px-3 py-2">
+                <div className="group overflow-hidden relative transition-all ease-in-out duration-300">
+                  <div
+                    className="block transition-transform duration-300 ease-in-out group-hover:-translate-y-4"
+                    href="/"
+                  >
+                    <h1>Contact Me</h1>
+                  </div>
+
+                  <div
+                    className="absolute top-4 block transition-transform duration-300 ease-in-out group-hover:-translate-y-4"
+                    href="/"
+                  >
+                    <h1>Contact Me</h1>
+                  </div>
                 </div>
-
-                <div
-                  className="absolute top-4 block transition-transform duration-300 ease-in-out group-hover:-translate-y-4"
-                  href="/"
-                >
-                  <h1>Contact Me</h1>
-                </div>
-              </div>
-            </Link>
-
+              </Link>
+            </div>
           </div>
           <FaqAccordion />
         </div>
